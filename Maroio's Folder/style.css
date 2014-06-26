@@ -210,6 +210,8 @@ a {
 }
 
 #two-columns .image-style {
+	border: 1px solid #D4D4D4;
+	margin-left: 20px;
 }
 
 .image-stylekarikaturi {
