@@ -1,9 +1,13 @@
+html {
+	font-size: 62.5%;
+}
+
 body {
 	margin: 0;
 	padding: 0;
 	background: #EFEFEF url(images/main-bg.jpg) repeat;
 	font-family: 'Tahoma', serif;
-	font-size: 15px;
+	font-size: 1.5rem;
 	color: #000000;
 }
 
@@ -15,20 +19,20 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 5rem;
 }
 
 h2 {
-	font-size: 2.4em;
+	font-size: 2.4rem;
 }
 
 h3 {
-	font-size: 1.6em;
+	font-size: 1.6rem;
 }
 
 p, ul, ol {
 	margin-top: 0;
-	line-height: 180%;
+	font-size: 2rem;
 }
 
 a {
@@ -37,24 +41,24 @@ a {
 }
 
 #header {
-	width: 940px;
-	height: 150px;
+	width: 94rem;
+	height: 15rem;
 	margin: 0 auto;
 }
 
 #logo {
-	width: 960px;
-	height: 150px;
-	margin: 0px auto 30px auto;
+	width: 96rem;
+	height: 15rem;
+	margin: 0rem auto 3rem auto;
 	color: #59113d;
 }
 
 #logo h1 {
-	line-height: 150px;
-	letter-spacing: -1px;
+	line-height: 15rem;
+	letter-spacing: -0.1rem;
 	text-align: center;
 	text-transform: lowercase;
-	font-size: 3.8em;
+	font-size: 3.8rem;
 }
 
 #menu {
@@ -62,17 +66,17 @@ a {
     border-width: 5px;
 	border-color: #f5f393;
 	overflow: hidden;
-	width: 1000px;
+	width: 100rem;
 	padding: 15px 0px;
 	margin: 0px auto 30px auto;
 	background: #59113d;
-	font-size: 20px;
+	font-size: 2rem;
 	color: #f5f393;
 }
 
 #menu ul {
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px;
+	margin: 0px;
+	padding: 0px;
 	list-style: none;
 	line-height: normal;
 	text-align: center;
@@ -89,9 +93,9 @@ a {
 	text-decoration: none;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	text-align: center;
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight:400;
-	style: bold;
+	font-style: bold;
 	color: #f5f393;
 	border: none;
 }
@@ -108,9 +112,9 @@ a {
 
 #page {
 	overflow: hidden;
-	width: 940px;
+	width: 94rem;
 	margin: 0px auto;
-	padding: 30px 30px;
+	padding: 3rem 3rem;
 	background: #FFFFFF;
 	border: 1px solid #D4D4D4;
 }
@@ -216,9 +220,11 @@ a {
 
 .image-stylekarikaturi {
 	display: block;
-	padding: 30px 10px;
+	padding: 3rem 1rem;
 	margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    width: 70rem;
+
 }
 
 .video{
