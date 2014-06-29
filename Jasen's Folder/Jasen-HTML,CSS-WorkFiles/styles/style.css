@@ -1,13 +1,20 @@
 html {
 	font-size: 62.5%;
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/grass2.jpg");
+	background-attachment:fixed; 
+	padding: 0%; 
 }
 
 body {
-	margin: 0;
-	padding: 0rem 10rem;
-	background: #EFEFEF url(images/main-bg.jpg) repeat;
+	width: 90%;
+	height: auto;
+	margin: 0% 5%;
+	background: #EFEFEF url(../images/main-bg.jpg) repeat;
 	font-family: 'Tahoma', serif;
 	color: #000000;
+	box-shadow: 0px 0px 50px 15px #060002;
 }
 
 h1, h2, h3 {
@@ -15,12 +22,6 @@ h1, h2, h3 {
 	padding: 0;
 	font-weight: lighter;
 	color: #59113d;
-}
-
-
-
-h1 {
-	font-size: 8rem;
 }
 
 h2 {
@@ -32,8 +33,8 @@ h3 {
 }
 
 p, ul, ol {
-	margin-top: 0;
-	font-size: 2rem;
+	margin-top: 0%;
+	font-size: 1.8rem;
 }
 
 a {
@@ -42,14 +43,14 @@ a {
 }
 
 .header {
-	width: 94rem;
-	height: 30rem;
+	width: 100%;
+	height: 25rem;
 	margin: 0 auto;
 }
 
 .logo {
 	width: 96rem;
-	height: 15rem;
+	height: 20rem;
 	margin: 0rem auto 1rem auto;
 	color: #59113d;
 	text-align: center;
@@ -59,18 +60,22 @@ a {
 	line-height: 15rem;
 	letter-spacing: -0.1rem;
 	text-align: center;
-	font-family: fantasy;
-	font-size: 3.8rem;
+	font-family: Jokerman;
+	color: #58E454;
+	font-size: 6rem;
+}
+
+.logo p {
+	font-family: Goudy Stout;
+	font-size: 2rem;
 }
 
 #menu {
 	border-radius: 5px;
-    /*border-width: 5px;*/
 	border-color: #f5f393;
-	/*overflow: hidden;*/
-	width: 100rem;
+	width: 95%;
 	height: 2.8rem;
-	padding: 1.2rem 0.5rem 0.8rem 0.5rem;
+	padding: 1.2rem 1% 0.8rem 1%;
 	margin: 0px auto 30px auto;
 	background: #59113d;
 	font-size: 2rem;
@@ -92,13 +97,12 @@ a {
 	width: 14%;
 	display: inline-block;
 	padding: 0rem;
-	margin: 0rem 1rem;
+	margin: 0% 0.5%;
 	text-align: center;
 
 }
 
 #menu a {
-	/*display: block;*/
 	height: 4rem;
 	width: 100%;
 	padding: 1.24rem 3rem;
@@ -120,30 +124,13 @@ a {
 #menu .current_page_item a {
 	background-color: #AB1F43;
 	color: #f5f393;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-	/*font-weight:bolder;*/
-}
-
-#page {
-	overflow: hidden;
-	width: 94rem;
-	margin: 0px auto;
-	padding: 3rem 3rem;
-	background: #FFFFFF;
-	border: 1px solid #D4D4D4;
-}
-
-#content {
-	float: left;
-	width: 600px;
-	padding: 10px 0px 0px 0px;
 }
 
 #three-columns {
 	overflow: hidden;
-	width: 1000px;
-	margin: 0px auto;
-	padding: 30px 0px;
+	width: 94%;
+	margin: 0%;
+	padding: 30px 3%;
 	border-bottom: 1px solid #D4D4D4;
 	color: #59113d;
 }
@@ -156,19 +143,20 @@ a {
 
 #three-columns #column1 {
 	float: left;
-	width: 30rem;
-	margin-right: 4rem;
+	width: 32%;
+	margin-right: 2%;
 }
 
 #three-columns #column2 {
 	float: left;
-	width: 30rem;
-	margin-right: 4rem;
+	width: 32%;
+	margin-right: 2%;
 }
 
 #three-columns #column3 {
 	float: left;
-	width: 30rem;
+	width: 32%;
+	height: 20%;
 }
 
 .link-style {
@@ -191,9 +179,9 @@ a {
 }
 
 #welcome {
-	width: 1000px;
-	margin: 0px auto;
-	padding: 30px 0px;
+	width: 90%;
+	margin: 0% 0%;
+	padding: 5rem 5%;
 	border-bottom: 1px solid #D4D4D4;
 	color: #59113d;
 }
@@ -210,22 +198,36 @@ a {
 	color: #59113d;
 }
 
+#video {
+	width: 80%;
+	height: 50rem;
+	padding: 2rem 10%;
+	text-align: center;
+}
+
 #two-columns {
 	overflow: hidden;
-	width: 1000px;
-	margin: 0px auto;
+	width: 94%;
+	margin: 0%;
 	border-bottom: 1px solid #D4D4D4;
-	padding: 30px 0px;
+	padding: 30px 3%;
 }
 
 #two-columns #col1 {
 	float: left;
-	width: 660px;
+	width: 70%;
 	color: #59113d;
 }
 
+#two-columns #col2 {
+	float: left;
+	/*width: 20%;*/
+	color: #59113d;
+	padding-top: 5%; 
+}
+
 #two-columns h2 {
-	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
 	color: #59113d;
 }
 
@@ -245,9 +247,9 @@ a {
 
 .video{
 	display: block;
-	padding: 20px 10px;
 	margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+
 }
 
 #two-columns .text-style {
@@ -259,7 +261,7 @@ a {
 
 #footer {
 	overflow: hidden;
-	width: 1000px;
+	width: 90%;
 	height: 200px;
 	margin: 0 auto;
 	padding: 0px 0 15px 0;
