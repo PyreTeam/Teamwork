@@ -1,0 +1,287 @@
+body,div,article,aside,header,nav,ul,li,a,p,span,strong,em,footer,section,h1,h2,h3,h4{margin:0;padding:0;}
+div,article,header,footer,ul,li,h1,h2,h3,h4,body{display:block;}
+
+html {
+	font-size: 62.5%;
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/grass2.jpg");
+	background-attachment:fixed; 
+	padding: 0%; 
+	display: block;
+}
+
+body {
+	display: block;
+	width: 90%;
+	height: auto;
+	margin: 0% 5%;
+	background: #EFEFEF url(../images/main-bg.jpg) repeat;
+	font-family: 'Tahoma', serif;
+	color: #000000;
+	box-shadow: 0px 0px 50px 15px #060002;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: lighter;
+	color: #59113d;
+}
+
+h2 {
+	font-size: 2.4rem;
+}
+
+h3 {
+	font-size: 1.6rem;
+}
+
+p, ul, ol {
+	margin-top: 0%;
+	font-size: 1.8rem;
+}
+
+a {
+	text-decoration: none;
+	color: #59113d;
+}
+
+#header {
+	width: 100%;
+	height: 25rem;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 100%rem;
+	height: 20rem;
+	margin: 0rem auto 1rem auto;
+	color: #59113d;
+	text-align: center;
+}
+
+.logo h1 {
+	line-height: 15rem;
+	letter-spacing: -0.1rem;
+	text-align: center;
+	font-family: Jokerman;
+	color: #58E454;
+	font-size: 6rem;
+}
+
+.logo p {
+	font-family: Goudy Stout;
+	font-size: 2rem;
+}
+
+#menu {
+	border-radius: 5px;
+	border-color: #f5f393;
+	width: 95%;
+	height: 2.8rem;
+	padding: 1.2rem 1% 0.8rem 1%;
+	margin: 0px auto 30px auto;
+	background: #59113d;
+	font-size: 2rem;
+	color: #f5f393;
+}
+
+#menu ul {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	height: 5rem;
+	width: 14%;
+	display: inline-block;
+	padding: 0rem;
+	margin: 0% 0.5%;
+	text-align: center;
+
+}
+
+#menu a {
+	height: 4rem;
+	width: 100%;
+	padding: 1.24rem 3rem;
+	text-decoration: none;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-align: center;
+	vertical-align: center;
+	font-size: 2rem;
+	font-weight:400;
+	font-style: bold;
+	color: #f5f393;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+}
+
+#menu .current_page_item a {
+	background-color: #AB1F43;
+	color: #f5f393;
+}
+
+#three-columns {
+	overflow: hidden;
+	width: 94%;
+	margin: 0%;
+	padding: 30px 3%;
+	border-bottom: 1px solid #D4D4D4;
+	color: #59113d;
+}
+
+#three-columns h2 {
+	padding: 0px 0px 20px 0px;
+	font-size: 30px;
+	color: #59113d;
+}
+
+#three-columns #column1 {
+	float: left;
+	width: 30%;
+	margin-right: 2%;
+}
+
+#three-columns #column2 {
+	float: left;
+	width: 30%;
+	margin-right: 2%;
+}
+
+#three-columns #column3 {
+	float: left;
+	width: 35%;
+	height: 20%;
+}
+
+#video1 {
+	width: 100%;
+	height: 40rem;
+	padding: 2rem 1%;
+}
+
+.link-style {
+	display: inline-block;
+	border-radius: 0.5rem;
+	margin-top: 1rem;
+	padding: 0.5rem 1.5rem;
+	background: #59113d;
+	color: #FFFFFF;
+}
+
+.link-style2 {
+	display: inline-block;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 10px 25px;
+	background: #59113d;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+#welcome {
+	width: 80%;
+	margin: 0rem;
+	padding: 5rem 3%;
+	border-bottom: 1px solid #D4D4D4;
+	color: #59113d;
+}
+
+#welcome h2 {
+	padding: 0px 0px 20px 0px;
+}
+
+#welcome h2 a {
+	color: #59113d;
+}
+
+#welcome a {
+	color: #59113d;
+}
+
+#video {
+	width: 100%;
+	height: 50rem;
+	padding: 2rem 12%;
+}
+
+#two-columns {
+	overflow: hidden;
+	width: 94%;
+	margin: 0%;
+	border-bottom: 1px solid #D4D4D4;
+	padding: 30px 3%;
+}
+
+#two-columns #col1 {
+	float: left;
+	width: 70%;
+	color: #59113d;
+}
+
+#two-columns #col2 {
+	float: left;
+	/*width: 20%;*/
+	color: #59113d;
+	padding-top: 5%; 
+}
+
+#two-columns h2 {
+	padding-bottom: 20px;
+	color: #59113d;
+}
+
+#two-columns .image-style {
+	border: 1px solid #D4D4D4;
+	margin-left: 20px;
+}
+
+.image-stylekarikaturi {
+	display: block;
+	padding: 3rem 1rem;
+	margin-left: auto;
+    margin-right: auto;
+    width: 70rem;
+
+}
+
+#two-columns .text-style {
+	padding-bottom: 10px;
+	border: 10px solid #000000;
+	text-align: center;
+	font-size: 20px;
+}
+
+#footer {
+	overflow: hidden;
+	width: 90%;
+	height: 200px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 20px;
+	line-height: normal;
+	text-align: center;
+	color: #59113d;
+}
+
+#footer a {
+	color: #59113d;
+}
