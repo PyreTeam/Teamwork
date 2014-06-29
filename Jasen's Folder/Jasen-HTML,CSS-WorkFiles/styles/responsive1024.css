@@ -5,6 +5,10 @@ body {
 	padding: 0%;
 }
 
+header {
+	margin: 0%;
+}
+
 #three-columns #column1 {
 	float: left;
 	width: 49%;
