@@ -176,6 +176,12 @@ img {
 	color: #FFF;
 }
 
+#welcome li {
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding-top: 5%; 
+	border-top: 2px solid #D2D2D2;
+}
 
 #three-columns {
 	overflow: hidden;
