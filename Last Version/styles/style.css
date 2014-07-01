@@ -13,9 +13,9 @@ html {
 
 body {
 	display: block;
-	width: 90%;
+	width: 80%;
 	height: auto;
-	margin: 0% 5%;
+	margin: 0% auto;
 	background: #EFEFEF url(../images/main-bg.jpg) repeat;
 	font-family: 'Tahoma', serif;
 	color: #000000;

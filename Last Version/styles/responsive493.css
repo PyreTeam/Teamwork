@@ -99,7 +99,7 @@ img {
 	clear: both;
 	border-radius: 5px;
 	width: 98%;
-	height: 11rem;
+	height: 15rem;
 	margin: 0rem;
 	margin-bottom: 3%;
 }
@@ -114,6 +114,15 @@ img {
 }
 
 #menu li {
+	height: 2.5rem;
+	width: 100%;
+	display: block;
+	padding-top: 0.5rem;
+	margin: 0%;
+	text-align: center;
+}
+
+/*#menu li {
 	clear: both;
 	height: 2rem;
 	width: 20rem;
@@ -121,13 +130,13 @@ img {
 	padding: 0.5rem 0rem 0rem 0rem;
 	margin: 0%;
 	line-height: 4rem;
-}
+}*/
 
 #menu a {
-	height: 2rem;
-	width: 40%;
-	padding: 0.5rem 0.5rem;
-	margin: 6% 2% 3% 0%;
+	height: 1.4rem;
+	width: 100%;
+	padding: 0.3rem 37%;
+	margin: 5% 2% 3% 0%;
 	text-decoration: none;
 	text-align: left;
 	font-size: 1.8rem;
@@ -141,7 +150,7 @@ img {
 	text-decoration: none;
 }
 
-#menu .current_page_item a {
+#menu .current_page_item {
 	background-color: #AB1F43;
 	color: #f5f393;
 }
