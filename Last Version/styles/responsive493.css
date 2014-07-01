@@ -15,6 +15,7 @@ html {
 	width: 100%;
 	height: 100%;
 	display: block;
+	overflow: hidden;
 }
 
 .wrapper {
@@ -70,7 +71,7 @@ img {
 
 .logo {
 	clear: both;
-	width: 25rem;
+	width: 100%;
 	height: 10rem;
 	color: #59113d;
 }
