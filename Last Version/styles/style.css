@@ -261,16 +261,18 @@ a {
 
 #two-columns #col2 {
 	float: left;
-	padding-top: 5%; 
+	padding-top: 5%;
+	margin-left: 1%; 
 }
 
 #two-columns h2 {
 	padding-bottom: 20px;
 }
 
-#two-columns .image-style {
-	margin-left: 20px;
-	width: 156px;
+#column2 .image-style {
+	margin-left: 1%;
+	width: 98%;
+	height: 50%;
 }
 
 .image-stylekarikaturi {
