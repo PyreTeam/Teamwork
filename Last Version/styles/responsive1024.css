@@ -15,6 +15,16 @@ html, div, a, body, header, link, p, h1, h2, h3, {
 	display: block;
 } 
 
+
+div#header>div#menu {
+    color:#151550 !important;
+}
+div#header>div#menu ul li a {
+    color:#37a418 !important;
+    background-color: #25258E !important;
+}
+
+
 html {
 	font-size: 62.5%;
 	width: 100%;
@@ -22,6 +32,9 @@ html {
 	padding: 0rem; 
 	display: block;
 	margin: 0rem;
+    
+	background-image: url("../images/grass2.jpg");
+	background-attachment:fixed; 
 }
 
 body {
@@ -30,7 +43,8 @@ body {
 	height: auto;
 	margin: 0%;
 	padding: 0%;
-	background: #EFEFEF url(../images/main-bg.jpg) repeat;
+	/*background: #EFEFEF url(../images/main-bg.jpg) repeat;*/
+    background:linear-gradient(to bottom, rgba(72,171,266,0.9), rgba(255,255,150,0.7));
 	font-family: 'Tahoma', serif;
 	color: #000000;
 }
