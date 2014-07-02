@@ -51,7 +51,7 @@ p, ul, ol {
 
 a {
 	text-decoration: none;
-	color: #37A418;
+    color: #81e213 !important;
 }
 
 #header {
@@ -70,11 +70,12 @@ a {
 
 .logo h1 {
 	line-height: 15rem;
-	letter-spacing: -0.1rem;
+	letter-spacing: 0.5rem;
 	text-align: center;
 	font-family: Griffy;
-	color: #2A7F13;
-	font-size: 6rem;
+	color: #81e213;
+	font-size: 7rem;
+    text-shadow: -3px 7px #000000;
 }
 
 .logo p {
@@ -142,7 +143,7 @@ a {
 	width: 94%;
 	margin: 0%;
 	padding: 30px 3%;
-	border-bottom: 1px solid #37A418;
+	border-bottom: 1px solid #D4D4D4;
 	color: #151550;
 }
 
