@@ -90,14 +90,14 @@ img {
 	line-height: 15rem;
 	letter-spacing: -0.1rem;
 	text-align: left;
-	font-family: Jokerman;
+	font-family: Griffy;
 	color: #246d10;
 	font-size: 6rem;
 	margin-left: 30%;
 }
 
 .logo p {
-	font-family: Goudy Stout;
+	font-family: Black Ops One;
 	font-size: 2rem;
 	text-align: left;
 	margin-left: 30%;
@@ -140,12 +140,10 @@ img {
 	padding: 1.2rem 4%;
 	margin: 2% 2%;
 	text-decoration: none;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	text-align: center;
 	vertical-align: center;
 	font-size: 1.8rem;
-	font-weight:400;
-	font-style: bold;
+	font-weight: 800;
 	color: #f5f393;
 	border: none;
 }
@@ -316,4 +314,13 @@ img {
 
 #footer a {
 	color: #59113d;
+}
+
+#footer div {
+	width: 100%;
+	margin: 1rem 40%;
+}
+
+#footer div a {
+	padding-right: 1rem; 
 }
